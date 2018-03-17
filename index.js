@@ -33,27 +33,9 @@ logWhisper("HELLO")
 
 // TEST 5 
 
-var uppercase = "HELLO!"
-uppercase.toUpperCase()===uppercase
-
-var lowercase = "hello!"
-lowercase.toLowerCase()===lowercase 
-
-var mixedCase = "Hi there!"
-mixedCase.toLowerCase()===mixedCase
-mixedCase.toUpperCase()===mixedCase
-
-function sayHiToGrandma(string){
-  if(string.toLowerCase) return("I can't hear you!")
-  if(string.toUpperCase) return("YES INDEED!")
-  if(mixedCase) return("I love you")
-}
-
-
 function sayHiToGrandma(string)
 {
-  var myWord = 'hello'
-  if(myWord.toLowerCase === myWord) {
+  if(string === string.toLowerCase) {
     return`I can\'t hear you!`
   }
 }
