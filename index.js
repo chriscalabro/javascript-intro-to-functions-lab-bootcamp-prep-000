@@ -34,6 +34,8 @@ logWhisper("HELLO")
 // TEST 5 
 function sayHiToGrandma(string)
 {
+  var myWord = myWord.toLowerCase()
+  if(string === )
     return`I can\'t hear you!`
 }
 sayHiToGrandma("hello!")
