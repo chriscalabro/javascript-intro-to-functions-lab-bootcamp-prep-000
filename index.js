@@ -38,5 +38,6 @@ function sayHiToGrandma(string)
   if(myWord.toLowerCase === myWord) {
     return`I can\'t hear you!`
   }
+}
 sayHiToGrandma("hello!")
 
